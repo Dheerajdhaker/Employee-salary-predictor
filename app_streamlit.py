@@ -180,12 +180,12 @@ def main():
     """, unsafe_allow_html=True)
     
     # Load model and data
-model, label_encoders, model_info = load_model()
-df = load_data()
+    model, label_encoders, model_info = load_model()
+    df = load_data()
     
     # Sidebar
-st.sidebar.markdown("## 🎛️ Prediction Controls")
-st.sidebar.markdown("---")
+    st.sidebar.markdown("## 🎛️ Prediction Controls")
+    st.sidebar.markdown("---")
     
     # Create two columns for main content
     col1, col2 = st.columns([1, 1])
