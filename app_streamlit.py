@@ -19,7 +19,6 @@ st.set_page_config(
 
 # Custom CSS for orange theme (changing from blue to orange)
 st.markdown("""
-st.markdown("""
 <style>
     .main {
         background: linear-gradient(135deg, #1e1e1e 0%, #2d2d2d 100%);
