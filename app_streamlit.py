@@ -181,7 +181,7 @@ def main():
     
     # Load model and data
 model, label_encoders, model_info = load_model()
-    df = load_data()
+df = load_data()
     
     # Sidebar
     st.sidebar.markdown("## 🎛️ Prediction Controls")
